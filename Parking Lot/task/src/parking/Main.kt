@@ -1,5 +1,13 @@
 package parking
 
+fun main() {
+    val parking = Parking()
+    while(true) parking.readInput()
+}
+
+/*
+package parking
+
 import parking.Command.*
 import kotlin.system.exitProcess
 
@@ -99,3 +107,4 @@ class Parking {
         return true
     }
 }
+ */
