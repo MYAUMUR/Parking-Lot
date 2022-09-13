@@ -16,18 +16,35 @@ class Parking {
                 if (!isCreated()) return
                 parkCar()
             }
+
             Leave.text -> {
                 if (!isCreated()) return
                 leaveParking()
             }
+
             PrintStatus.text -> {
                 if (!isCreated()) return
                 printStatus()
             }
+
+            RegByColor.text -> {
+                if (!isCreated()) return
+                printByColor("number")
+            }
+
+            SpotByColor.text -> {
+                if (!isCreated()) return
+                printByColor("spot")
+            }
+
+            SpotByReg.text -> {
+                if (!isCreated()) return
+                printSpotByReg()
+            }
+
             Exit.text -> exitProcess(0)
         }
     }
-
     private fun createParking() {
         val size = input[1].toInt()
         parking = MutableList(size) { "Empty" }
@@ -66,7 +83,41 @@ class Parking {
             false
         }
     }
+
     private fun printStatus() {
         for (i in parking.indices) if (parking[i] != "Empty") println(parking[i])
+    }
+
+    private fun printByColor(argument: String) {
+        val inputColor = input[1]
+        val carList = mutableListOf<Car>()
+        for (i in parking.indices) {
+            if (parking[i] != "Empty") {
+                val car = parking[i] as Car
+                if (car.color.uppercase() == inputColor.uppercase()) carList.add(car)
+            }
+        }
+        when {
+            carList.isEmpty() -> {
+                println("No cars with color $inputColor were found.")
+                return
+            }
+            argument == "number" -> println(carList.joinToString { it.number })
+            argument == "spot" -> println(carList.joinToString { it.spot.toString() })
+        }
+    }
+
+    private fun printSpotByReg() {
+        val inputNumber = input[1]
+        for (i in parking.indices) {
+            if (parking[i] != "Empty") {
+                val car = parking[i] as Car
+                if (inputNumber == car.number) {
+                    println(car.spot)
+                    return
+                }
+            }
+        }
+        println("No cars with registration number $inputNumber were found.")
     }
 }
