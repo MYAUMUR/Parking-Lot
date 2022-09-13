@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Parking-Lot.iml" filepath="$PROJECT_DIR$/.idea/modules/Parking-Lot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Parking Lot/task/Parking-Lot.Parking_Lot-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Parking Lot/task/Parking-Lot.Parking_Lot-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Parking Lot/task/Parking-Lot.Parking_Lot-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Parking Lot/task/Parking-Lot.Parking_Lot-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Parking Lot/task/Parking-Lot.Parking_Lot-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Parking Lot/task/Parking-Lot.Parking_Lot-task.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Parking Lot (1)/task/Parking-Lot.Parking_Lot__1_-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Parking Lot (1)/task/Parking-Lot.Parking_Lot__1_-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Parking Lot (1)/task/Parking-Lot.Parking_Lot__1_-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Parking Lot (1)/task/Parking-Lot.Parking_Lot__1_-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Parking Lot (1)/task/Parking-Lot.Parking_Lot__1_-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Parking Lot (1)/task/Parking-Lot.Parking_Lot__1_-task.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Parking-Lot.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Parking-Lot.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Parking-Lot.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Parking-Lot.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Parking-Lot.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Parking-Lot.util.test.iml" />
+    </modules>
+  </component>
+</project>
